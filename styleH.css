@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(175, 189, 175);
+}
+header{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color: rgb(30, 36, 36);
+    border-radius: 20px 30px 80px 70px;
+}
+.logo{
+    font-size: 20px;
+    color:cyan;
+    border: 3px rgb(254, 252, 252) solid;
+    border-radius: 70% 30% 80%;
+    text-decoration: line-through;
+    box-shadow: 0 0 5px rgb(210, 55, 151),0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan,  0 0 200px cyan; ;
+}
+.menu a{
+    color: #fbfafe;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 300;
+    border: 3px white,solid;
+    justify-content: center;
+    margin-right: 50px;
+    border-radius: 20% 10px 20% 10%;
+    transition: 0.7s;
+}
+:hover.home{
+background: aqua;
+box-shadow: 0 0 5px rgb(210, 55, 151),0 0 25px cyan, 0 0 50px cyan,
+0 0 100px cyan,  0 0 200px cyan; 
+border: none;
+color: black;
+}
+:hover.about{
+    background: aqua;
+    box-shadow: 0 0 5px rgb(210, 55, 151),0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan,  0 0 200px cyan; 
+    border: none;
+    color: black;
+    }
+    :hover.contact{
+        background: aqua;
+        box-shadow: 0 0 5px rgb(210, 55, 151),0 0 25px cyan, 0 0 50px cyan,
+        0 0 100px cyan,  0 0 200px cyan; 
+        border: none;
+        color: black;
+        }
+    .content{
+        display: flex;
+        margin-left:30px;
+        justify-content: space-around;
+    }
+    img{
+         border: 3px double white;
+         border-radius: 15%;
+    }
+ .read {
+    text-decoration: none;
+    border: 3.5px solid white;
+    font-size: 30px;
+    font: 100 menu;
+    border-radius: 15% 10% 15% 10%;
+    font-style: italic;
+    transition: 3s;
+    color: blue;
+    margin:400px;
+ }
+ :hover.read{
+    background: aqua;
+    box-shadow: 0 0 5px rgb(210, 55, 151),0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan,  0 0 200px cyan; 
+    border: none;
+    color: black;
+ }
